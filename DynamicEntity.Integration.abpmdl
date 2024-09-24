@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "DynamicEntity.Integration.Application": {
+      "path": "src/DynamicEntity.Integration.Application/DynamicEntity.Integration.Application.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.Application.Tests": {
+      "path": "test/DynamicEntity.Integration.Application.Tests/DynamicEntity.Integration.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "DynamicEntity.Integration.Domain.Shared": {
+      "path": "src/DynamicEntity.Integration.Domain.Shared/DynamicEntity.Integration.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.Application.Contracts": {
+      "path": "src/DynamicEntity.Integration.Application.Contracts/DynamicEntity.Integration.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.HttpApi": {
+      "path": "src/DynamicEntity.Integration.HttpApi/DynamicEntity.Integration.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.HttpApi.Client": {
+      "path": "src/DynamicEntity.Integration.HttpApi.Client/DynamicEntity.Integration.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.EntityFrameworkCore.Tests": {
+      "path": "test/DynamicEntity.Integration.EntityFrameworkCore.Tests/DynamicEntity.Integration.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "DynamicEntity.Integration.EntityFrameworkCore": {
+      "path": "src/DynamicEntity.Integration.EntityFrameworkCore/DynamicEntity.Integration.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.TestBase": {
+      "path": "test/DynamicEntity.Integration.TestBase/DynamicEntity.Integration.TestBase.abppkg",
+      "folder": "test"
+    },
+    "DynamicEntity.Integration.Domain.Tests": {
+      "path": "test/DynamicEntity.Integration.Domain.Tests/DynamicEntity.Integration.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "DynamicEntity.Integration.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/DynamicEntity.Integration.HttpApi.Client.ConsoleTestApp/DynamicEntity.Integration.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "DynamicEntity.Integration.DbMigrator": {
+      "path": "src/DynamicEntity.Integration.DbMigrator/DynamicEntity.Integration.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.HttpApi.Host": {
+      "path": "src/DynamicEntity.Integration.HttpApi.Host/DynamicEntity.Integration.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "DynamicEntity.Integration.Domain": {
+      "path": "src/DynamicEntity.Integration.Domain/DynamicEntity.Integration.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

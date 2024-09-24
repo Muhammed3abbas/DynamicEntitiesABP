@@ -1,0 +1,17 @@
+﻿{
+  "applications": {
+    "DynamicEntity.Integration.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44316",
+      "path": "../../../src/DynamicEntity.Integration.HttpApi.Host/DynamicEntity.Integration.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    },
+    "DynamicEntity.Integration.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$"        
+    }
+  }
+}
